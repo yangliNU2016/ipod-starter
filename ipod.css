@@ -1,0 +1,249 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+/*Set the background color to be light purple and adjust RBG
+  Set the text color, alignment, and shadow
+  Set the height a little bit bigger than the default so the text
+  does not look smashed
+  */
+.head-bar {
+	height: 45px;
+	background-color:#E6CCFF;
+    color:white;
+	text-align:center;
+    text-shadow: 1px 1px black;
+}
+
+/*
+Set the height and width 
+Set the background-color and border 
+Set the position where it should be
+*/
+.back-button {
+	height:30px;
+	width:50px;
+	background-color:lightgrey;
+	border:solid white 1px;
+	position:relative;
+	left:5px;
+	top:5px;
+}
+
+/* 
+	Albums 
+			
+Set the width a little smaller than the width of the screen (for the sake of margins)
+Set the height a little smaller than the height of the screen (for the sake of margins)
+Adjust its position on the screen
+*/			
+.albums-album-wrapper {
+	width: 280px;
+	height: 430px;
+	position: relative;
+	top: 15px;
+	left: 10px;
+
+}
+
+/*
+Panels should take up the half the width and a little less than half of the height (for 
+the sake of margins)
+*/
+#top-left-panel{
+	width:140px;
+	height:200px;
+	float:left;
+}
+
+#top-right-panel{
+	width:140px;
+	height:200px;
+	float:right;
+}
+
+#bottom-left-panel{
+	width:140px;
+	height:200px;
+	float:left;
+	
+}
+
+#bottom-right-panel{
+	width:140px;
+	height:200px;
+	float:right;
+	
+}
+
+/*
+Set the width a little smaller than the width of the panels (for the sake of margins)
+*/
+.albums-album-art {
+	width:135px;
+	height:135px;
+}
+
+/*
+Set the alignment and adjust the position relatively
+*/
+.albums-album-name {
+	text-align:center;
+	Position:relative;
+	bottom:12px;
+}
+
+/*
+Set the alignment and font size and adjust the position relatively 
+*/
+.albums-artist-name {
+	text-align:center;
+	font-size:14px;
+	Position:relative;
+	bottom:25px;
+}
+
+/* 
+	Songs 
+Set the width a little smaller than the width of the screen 
+Set the height less than half of the height of the screen because the 
+songs list take more than half of the height
+Adjust the position relatively	
+*/
+.songs-info-wrapper {	
+	width: 280px;
+	height: 150px;
+	position: relative;
+	top: 5px;
+	left: 10px;
+}
+
+/*
+Panels take half of the width of the wrapper panel and almost all the width
+of the wrapper
+*/
+#left-panel{
+	width:140px;
+	height:140px;
+	float:left;
+}
+
+#right-panel{
+	width:140px;
+	height:140px;
+	float:right;
+}
+
+/*
+Cover the album on the left panel
+*/
+.songs-album-art {
+	width:140px;
+	height:140px;
+}
+
+/*
+Set the alignment and position relatively
+*/
+.songs-album-name {
+	text-align:left;
+	position:relative;
+	bottom:12px;
+}
+
+/*
+Set the alignment and position relatively
+*/
+.songs-artist-name {
+	text-align:left;
+	position:relative;
+	bottom:12px;
+}
+
+/*
+Wrap all the text info up on the panel as a div and adjust position relatively
+*/
+.songs-text-info {
+	position:relative;
+	left:30px;
+	top:10px;
+}
+
+/*
+Set the alignment and position relatively
+*/
+.songs-album-year {
+	text-align:left;
+	Position:relative;
+	bottom:12px;
+}
+
+/*
+Set the position relatively
+Set the border, margin, and padding 
+*/
+.songs-list {
+	position:relative;
+	right:10px;
+	border-style:groove;
+	border-width:1px;
+	margin-bottom:5px;
+	padding-left:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+/* 
+	Player 
+			*/
+.player-album-art {
+	
+}
+
+.player-song-info {
+	
+}
+
+#player-song-name {
+	
+}
+
+.volume-bar {
+	
+}
+
+.volume-level {
+	
+}
+
+.volume-rocker {
+	
+}
+
+.player-controls{
+	
+}
+
+#player-time {
+	
+}
+
+#time-elapsed {
+	
+}
+
+#time-total{
+	
+}
